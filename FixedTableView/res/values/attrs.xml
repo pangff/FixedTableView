@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TableLayout相关属性配置 -->
+    <declare-styleable name="TableLayout">
+        <!-- 表头高度 -->
+        <attr name="titleHeight" format="dimension" />
+        <!-- 第一列宽度 -->
+        <attr name="leftTitleWidth" format="dimension" />
+        <!-- 单元格宽度 -->
+        <attr name="cellWidth" format="dimension" />
+        <!-- 单元格高度 -->
+        <attr name="cellHeight" format="dimension" />
+        <!-- 刷新文字 -->
+        <attr name="loadingText" format="string" />
+        <!-- 表头文字颜色 -->
+        <attr name="headerTextColor" format="reference|color" />
+        <!-- 默认字体大小 -->
+        <attr name="defaultTextSize" format="dimension" />
+        <!-- 默认字体颜色 -->
+        <attr name="defaultTextColor" format="reference|color" />
+        <!-- 默认背景 -->
+        <attr name="bgColor" format="reference|color" />
+        <!-- 行背景 -->
+        <attr name="rowColor" format="reference|color" />
+        <!-- 行按下背景 -->
+        <attr name="rowPressedColor" format="reference|color" />
+        <!-- 表头背景色 -->
+        <attr name="headerBgColor" format="reference|color" />
+        <!-- 表头按下背景色 -->
+        <attr name="headerPressedBgColor" format="reference|color" />
+        <!-- 行间diver高度 -->
+        <attr name="diverHeight" format="dimension" />
+        <!-- 单元格纵向padding -->
+        <attr name="cellVericalPadding" format="dimension" />
+        <!-- 单元格横向padding -->
+        <attr name="cellHorizantalPadding" format="dimension" />
+        <!-- 刷新loading背景色 -->
+        <attr name="loadingBgColor" format="reference|color" />
+        <!-- 刷新loading文字颜色 -->
+        <attr name="loadingTextColor" format="reference|color" />
+        <!-- 刷新loading文字大小 -->
+        <attr name="loadingTextSize" format="dimension" />
+        <!-- 刷新loading图片 -->
+        <attr name="loadingDrawable" format="reference" />
+    </declare-styleable>
+
+</resources>
